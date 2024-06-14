@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BookSearch</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="Topnav">
+    <a class="active" href="#">Avani's Book Site</a>
+    <br>
+
+    <div class="searchbar">
+      <form role="search" id="form">
+        <input type="search" id="query" name="q" placeholder="Search..">
+      </form>
+
+    </div>
+  </div>
+
+  <div style="padding-left:16px">
+
+  </div>
+
+  <div class="smalltitle">
+    <br>
+    <h1>Welcome to Book Search </h1>
+  </div>
+
+
+
+  <div class='section' id="section">
+
+    <!--<div class="row">
+      <div class="column">
+        <h3>
+          here <3 </h3>
+           <div class="card">
+         <img src="HP.jpg" alt="HarryPotter" class="center"">
+          <h3 id=" title ">Movie Title </h3>
+
+
+        </div> 
+      </div>
+    </div> -->
+
+
+
+    <!-- <main id="main"></main>   -->
+    <div>
+
+      <script src="script.js"></script>
+      <script>
+        document.getElementById('form').addEventListener('submit', function (event) {
+          event.preventDefault(); // Prevent form submission
+          getBooks(); // Call the getBooks function
+        });
+      </script>
+
+
+    </div>
+
+</body>
+
+</html>

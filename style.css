@@ -1,0 +1,131 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  background-color: #40263e;
+}
+
+.card {
+  width: 270px;
+  height: 370px;
+  border-radius: 10px;
+  background-color: #5b2f5b;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  float: right;
+}
+
+.card1 {
+  width: 270px;
+  height: 180px;
+  border-radius: 10px;
+  background-color: #5b2f5b;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  float: right;
+}
+
+.username {
+
+  background-color: #5b2f5b;
+}
+
+.rev {
+  background-color: #5b2f5b;
+}
+
+.next {
+  background-color: #5b2f5b;
+  text-decoration: none;
+}
+
+.edit {
+  background-color: #5b2f5b;
+  text-decoration: none;
+  color: Red;
+}
+
+.delete {
+  background-color: #5b2f5b;
+  text-decoration: none;
+  color: Red;
+}
+
+.section img {
+  width: 218px;
+  height: 318px;
+}
+
+.card h3 {
+
+  background-color: #5b2f5b;
+
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+  background-color: #5b2f5b;
+}
+
+.searchbar {
+  color: white;
+  float: right;
+
+}
+
+.Topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.Topnav h6 {
+  float: left;
+
+}
+
+.smalltitle {
+  font-size: 1.0rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
+.section h3 {
+  color: white;
+  font-size: .9rem;
+  font-family: "Times New Roman";
+
+}
+
+.BT h1 {
+  color: white;
+  font-size: 1.2rem;
+
+}
+
+.BT h3 {
+  color: white;
+  font-size: 1.2rem;
+
+
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px 10px;
+}
